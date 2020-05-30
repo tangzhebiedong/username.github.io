@@ -7,9 +7,17 @@
     </title>
      <script type="text/javascript">
        var name=document.getElementById("name")
+       
        function onChange(){
+         var inpu=documenmt.getElementByTagname("input")
+         var  contentall=inpu.value
+         var reg=/^\s*$/g
+         if(reg.test(" contentall"){
+            alert("内容有空")
+            }
+            else{
          var content=document.getElementById("text")
-         content.innerHTML=("经过精确的测算"+"’"+name+"是做姜楷老婆的命")
+         content.innerHTML=("经过精确的测算"+name+"是做姜楷老婆的命")
        }
      </script>
     <style>  
