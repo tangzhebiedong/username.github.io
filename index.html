@@ -8,7 +8,7 @@
      <script type="text/javascript">
        var name=document.getElementById("name")
        function onChange(){
-         var content=document.getElementByTagname("textarea")
+         var content=document.getElementById("text")
          content.innerHTML=("经过精确的测算"+"’"+name+"是做姜楷老婆的命")
        }
      </script>
@@ -30,7 +30,7 @@
    <p>联系方式</P>
       <input></input><br>
 <input type="button" value="提交" onclick="onChange()"><br>
-<textarea row="20" cols="80">
+<textarea row="20" cols="80" id="text">
 </textarea>
 </div>
 
